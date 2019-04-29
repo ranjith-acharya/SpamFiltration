@@ -13,6 +13,5 @@ The File <br><b>detector.py</b>, it uses the generated <b>text-classification.md
 To Download <b><a href="http://www.cs.cmu.edu/~enron" target="_blank">Enron Email Data set</a></b> Click here.
 
 # Commands
-Firstly use<br>
 <li><b>$ python spam.py</b> &nbsp;&nbsp;&nbsp;, then execute</li>
 <li><b>$ python detector.py</b></li>
