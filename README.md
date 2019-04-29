@@ -8,4 +8,4 @@ Email spam is operations which are sending the undesirable messages to different
 The Data set used is Enron E-Mail Data Set, in these project it contains about <b>(2000)</b> E-Mail Data set.<br><br>
 The File <br><b>spam.py</b>, it uses <b>Naive bayesian</b> Classification creates Dictionary of all Repeated words and generates a Model which is "<b>text-classification.mdl</b>" File.
 <br><br>
-The File <br><b>detector.py</b>, it uses the generated <b>text-classification.mdl</b>, file for testing purpose, soa as to classify whether the input email is <b>Spam</b> or <b>Ham</b>
+The File <br><b>detector.py</b>, it uses the generated <b>text-classification.mdl</b>, file for testing purpose, so as to classify whether the input email is <b>Spam</b> or <b>Ham</b>
