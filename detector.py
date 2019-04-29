@@ -42,4 +42,4 @@ for word in d:
     features.append(inp.count(word[0]))
 
 res = clf.predict([features])
-print (["Not Spam", "Spam!"][res[0]])
+print (["Not Spam!", "Spam!"][res[0]])
