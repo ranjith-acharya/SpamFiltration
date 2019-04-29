@@ -4,7 +4,7 @@ from collections import Counter
 from sklearn.naive_bayes import MultinomialNB
 
 def load(clf_file):
-    with open('text-classifier.pkl', 'rb') as f:
+    with open('text-classifier.mdl', 'rb') as f:
         clf = c.load(f)
     return clf
 
