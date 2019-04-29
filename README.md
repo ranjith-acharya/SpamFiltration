@@ -11,3 +11,8 @@ The File <br><b>spam.py</b>, it uses <b>Naive bayesian</b> Classification create
 The File <br><b>detector.py</b>, it uses the generated <b>text-classification.mdl</b>, file for testing purpose, so as to classify whether the input email is <b>Spam</b> or <b>Ham</b>
 <br><br>
 To Download <b><a href="http://www.cs.cmu.edu/~enron" target="_blank">Enron Email Data set</a></b> Click here.
+
+# Commands
+Firstly use<br>
+<li>python spam.py</li>, then execute
+<li>python detector.py</li>
