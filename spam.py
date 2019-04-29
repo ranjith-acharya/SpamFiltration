@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import pickle as c
 
 def save(clf, name):
-	with open('text-classifier.pkl', 'wb') as f:
+	with open('text-classifier.mdl', 'wb') as f:
 		c.dump(clf, f)
 	print ("Model generated successfully")
 
@@ -71,4 +71,4 @@ clf.fit(x_train, y_train)
 
 preds = clf.predict(x_test)
 print ("Accuracy is : ", accuracy_score(y_test, preds)*100, "%")
-save(clf, "text-classifier.pkl")
+save(clf, "text-classifier.mdl")
