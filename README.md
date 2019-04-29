@@ -14,5 +14,5 @@ To Download <b><a href="http://www.cs.cmu.edu/~enron" target="_blank">Enron Emai
 
 # Commands
 Firstly use<br>
-<li>python spam.py</li>, then execute
-<li>python detector.py</li>
+<li><b>$ python spam.py</b> &nbsp;&nbsp;&nbsp;, then execute</li>
+<li><b>$ python detector.py</b></li>
